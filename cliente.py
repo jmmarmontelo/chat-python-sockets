@@ -37,6 +37,7 @@ def receberMensagens(cliente):
             print('Nao foi possivel estabelecer conexao')
             cliente.close()
             break
+        
 # Metodo que envia as mensagens ao servidor.
 def enviarMensagens(cliente, nome):
     while True:
